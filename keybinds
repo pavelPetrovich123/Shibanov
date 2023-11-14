@@ -1,0 +1,13 @@
+[
+    {
+        "key": "f3",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+      },
+      
+      {
+        "key": "f3",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+      }
+]
